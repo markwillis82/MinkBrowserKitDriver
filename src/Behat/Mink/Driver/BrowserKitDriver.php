@@ -158,7 +158,7 @@ class BrowserKitDriver implements DriverInterface
      *
      * @throws UnsupportedDriverActionException
      */
-    public function switchToWindow($name = null)
+    public function switchToWindow($name = null, $title = null)
     {
         throw new UnsupportedDriverActionException('Window management is not supported by %s', $this);
     }
